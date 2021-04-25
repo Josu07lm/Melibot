@@ -59,7 +59,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:Meliodas\n' // Seu nome
             + 'ORG:Lexa;\n' // Nome do Bot
-            + 'TEL;type=CELL;type=VOICE;waid=5589981210976:+55 89 981210976\n' // Numero do Whatsapp
+            + 'TEL;type=CELL;type=VOICE;waid=593992390339:+593 99 239 0339\n' // Numero do Whatsapp
             + 'END:VCARD'
 prefix = '*','#','+'
 blocked = []
@@ -293,8 +293,8 @@ async function starts() {
 					premium: '[❗] ESTE PEDIDO É SO PARA *USUÁRIOS PREMIUMS*',
 					mod: '[❗] ESTE PEDIDO É ESPECÍFICO PARA USUARIO MOD XANDÃO BOT*',
 					benned: 'Você foi banido, contate o dono para te desbanir',
-					ownerG: 'Só o Meliodas pode usar esse comando parsa',
-					ownerB: 'Só o Meliodas pode usar esse comando parsa',
+					ownerG: 'Só o Josue pode usar esse comando parsa',
+					ownerB: 'Só o Josue pode usar esse comando parsa',
 					userB: `──「 LISTA 」──\nOlá Kak !\nDesculpe, irmão. Você não está registrado como amigo do Meliodas. Registre-se para fazer amizade com o bot ✞︎𝙼𝚎𝚕𝚒𝚘𝚍𝚊𝚜✞︎ por meio, \n\nCommand : ${prefix}daftar nome|idade\nExemplo : ${prefix}daftar ✞︎𝙼𝚎𝚕𝚒𝚘𝚍𝚊𝚜✞︎|17\n\n──「 BOT MAN 」──`,
 					admin: '[❗] Este comando só pode ser usado por administradores de grupo! ❌',
 					Badmin: ' [❗] Este comando só pode ser usado quando o bot se torna administrador! ❌',
@@ -302,11 +302,11 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["558981210976@s.whatsapp.net","558981246187@s.whatsapp.net"] // Recoloque o seu numero
-			const mod = [ownerNumber,"558981210976@s.whatsapp.net","558981246187@s.whatsapp.net"]// não sei o que eu isso 
-			const adminbotnumber = ["558981210976@s.whatsapp.net","558981246187@s.whatsapp.net"]// admin bot numero
+			const ownerNumber = ["593992390339@s.whatsapp.net","593992390339@s.whatsapp.net"] // Recoloque o seu numero
+			const mod = [ownerNumber,"593992390339@s.whatsapp.net","593992390339@s.whatsapp.net"]// não sei o que eu isso 
+			const adminbotnumber = ["593992390339@s.whatsapp.net","593992390339@s.whatsapp.net"]// admin bot numero
 			const frendsowner = ["558981210976@s.whatsapp.net","558981246187@s.whatsapp.net"]// amigo do criador 
-			const premium = ["558981210976@s.whatsapp.net","558981246187@s.whatsapp.net","558981204807@s.whatsapp.net","558981213553@s.whatsapp.net","554999498331@s.whatsapp.net","558981309535@s.whatsapp.net"]
+			const premium = ["593992390339@s.whatsapp.net","558981246187@s.whatsapp.net","558981204807@s.whatsapp.net","558981213553@s.whatsapp.net","554999498331@s.whatsapp.net","558981309535@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
